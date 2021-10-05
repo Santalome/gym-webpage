@@ -411,5 +411,70 @@ body{
     color: rgb(220, 7, 87);
 }
 
+.recipes-landing{
+    background-image: url("../img/recipes-background.jpeg");
+    background-position: 80% 50%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.recipes-landing h2{
+    font-size: 4.5rem;
+    letter-spacing: 1px;
+}
+
+.recipes-landing h4{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.recipes-beauty{
+    max-width: 900px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.recipes-titles h3{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.recipes-titles p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.recipes-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.recipes-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+.recipes-card h3{
+    font-size: 1.3rem;
+    line-height: 1.3;
+    font-weight: 800;
+}
+
+.recipes-card p{
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.recipes-card button{
+    margin-top: 20px;
+}
 
