@@ -441,26 +441,28 @@ body{
 .recipes-titles h3{
     font-size: 3rem;
     text-align: center;
+    margin-top: 60px;
 }
 
 .recipes-titles p{
     font-size: 1.2rem;
     line-height: 1.5;
     margin-bottom: 40px;
+    margin-top: 30px;
 }
 
 .recipes-cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 35px;
+    gap: 80px;
 }
 
 .recipes-card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 200px;
-    justify-content: space-evenly;
+    height: 240px;
+    margin-bottom: 150px;
 }
 
 .recipes-card h3{
@@ -470,11 +472,36 @@ body{
 }
 
 .recipes-card p{
-    margin-top: 20px;
     font-size: 1.1rem;
+    margin-top: 30px;
 }
 
 .recipes-card button{
-    margin-top: 20px;
+    background-color: transparent;
+    border-style: none;
+    border: 2px solid rgb(220, 7, 87);
+    color: rgb(220, 7, 87);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: auto;
+    
 }
+
+.recipes-footer{
+    height: 70vh;
+}
+
+.recipesfooter-title{
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+.recipesfooter-button{
+    font-size: 1.2rem;
+}
+
 
