@@ -504,4 +504,35 @@ body{
     font-size: 1.2rem;
 }
 
+.aboutme{
+    height: 120vh;
+}
+
+.aboutme-title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.aboutme-title h3{
+    font-size: 4rem;
+}
+
+.aboutme-title p{
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.aboutprincipal p{
+    font-weight: 400;
+}
+
+.aboutprincipal-align{
+    align-items: flex-start;
+}
+
+.aboutprincipal-right{
+    justify-content: flex-start;
+    height: 500px;
+}
+
 
