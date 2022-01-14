@@ -138,15 +138,11 @@ body{
 }
 
 .aboutme{
-    width: 100%;
-    height: 90vh;
-    margin: 80px 0px;
-}
-
-.aboutme-wrapper{
+    height: 70vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 100%;
+    align-items: center;
 }
 
 .aboutme-align{
@@ -154,11 +150,11 @@ body{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 30px;
+    padding-top: 120px;
 }
 
 .aboutme-left{
     width: 70%;
-    margin-left: 200px;
 }
 
 .aboutme-left h3{
@@ -213,6 +209,61 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 80vh;
+}
+
+.aboutme-principaltitle{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.aboutme-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme-principal h2{
+    font-size: 4rem;
+}
+
+.aboutme-principal h4{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 4;
+}
+
+.aboutme-principalwrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    grid-gap: 40px;
+    margin: 30px 0px 80px 0px;
+}
+
+.aboutme-grid-left{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4;
+    width: 90%;
+}
+
+.about-grid-rigth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aboutme-grid-right img{
+    width: 90%;
 }
 
 .helping-flex h2{
@@ -412,9 +463,12 @@ body{
 }
 
 .recipes-landing{
+    width: 100%;
+    height: 90vh;
     background-image: url("../img/recipes-background.jpeg");
-    background-position: 80% 50%;
-    height: 85vh;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -614,4 +668,3 @@ body{
     text-decoration: underline;
     font-weight: 500;
 }
-
