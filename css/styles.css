@@ -138,14 +138,13 @@ body{
 }
 
 .aboutme{
-    height: 70vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.aboutme-align{
+/*.aboutme-align{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -197,7 +196,7 @@ body{
     color: #fff;
     transition: 0.3s ease-in-out;
     background-color: rgb(220, 7, 87);
-}
+}*/
 
 .helping{
     background-color: rgb(255, 242, 247);
