@@ -863,6 +863,10 @@
         max-width: 450px;
     }
 
+    .recipes-card{
+        height: 25vh;
+    }
+
     .hamburger{
         display: block;
         background-color: transparent;
