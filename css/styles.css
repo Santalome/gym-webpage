@@ -863,9 +863,7 @@
         max-width: 450px;
     }
 
-    .recipes-card{
-        height: 25vh;
-    }
+    
 
     .hamburger{
         display: block;
@@ -918,6 +916,9 @@
     .landing-p, .recipes-landing h4{
         font-size: 1.5rem;
         text-align: center;
+    }
+    .recipes-card{
+        height: 200px;
     }
 
     .landing-button{
