@@ -4,6 +4,12 @@
 
 .background-header{
     width: 100%;
+    margin-bottom: 100px;
+}
+
+#header-wrapper.hide{
+    display: none;
+    transition: display 0.5s;
 }
 
 .hamburger{
@@ -18,6 +24,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 .header{
     display: flex;
@@ -225,7 +235,7 @@
 
 .aboutme-principaltitle{
     width: 100%;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .aboutme-principal{
@@ -639,7 +649,7 @@
 }
 
 #email, #comment{
-    width: 70%;
+    width: 50%;
     border-radius: 5px;
     padding: 10px;
     font-size: 1rem;
