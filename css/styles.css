@@ -8,8 +8,9 @@
 }
 
 #header-wrapper.hide{
-    display: none;
-    transition: display 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s ease-in-out;
 }
 
 .hamburger{
